@@ -10,46 +10,33 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
 </head>
 <body>
-
-  <!-- 
-    
-
-
-
-  
-  
-
-
-
-  
-   -->
-
   <main>
     <div class="hero-img">
       <img src="./images/illustration-hero.svg" alt="Pessoa ouvindo musica com fone e dançando">
     </div>
     <div class="order-summary">
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <h1 class="primary margin-bt">Order Summary</h1>
+      <p class="margin-bt secondary">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
       <div class="payment-summary">
-        <div class="paymant-summary-icon">
+        <div class="hero-img">
           <img src="./images/icon-music.svg" alt="Ícone com simbolo de nota musical">
-          <p>Annual Plan<br>
-            <span>$59.99/year</span>
+        </div>
+
+          <p class="primary">Annual Plan<br>
+            <span class="secondary">$59.99/year</span>
           </p>
           <button type="submit">Change</button>
-        </div>
       </div>
-      <button type="submit">Proceed to Payment</button>
-      <button type="submit">Cancel Order</button>
+      <div class="buttons">
+        <button class="btn payment-btn" type="submit">Proceed to Payment</button>
+        <button class="btn cancel-btn" type="submit">Cancel Order</button>
+      </div>
     </div>
   </main>
   
