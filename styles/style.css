@@ -9,7 +9,13 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: rgb(224, 232, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .primary {
@@ -28,9 +34,9 @@ main {
   background-color: #fff;
   max-width: 450px;
   margin: 100px;
-
   border-radius: 21px;
   overflow: hidden;
+  box-shadow: rgba(149, 157, 165, .8) 0px 8px 24px;
 }
 
 .order-summary {
@@ -39,7 +45,7 @@ main {
 
 .order-summary h1 {
   font-size: 25px;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 900;
 }
 
@@ -97,7 +103,6 @@ main {
   cursor: pointer;
   font-size: .95rem;
   font-weight: 700;
-  margin-inline: 1.5em;
   padding: 1em;
 }
 
